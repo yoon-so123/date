@@ -25,11 +25,61 @@
 # print(item_name, price, stock)
 
 
-# name = input() 
-# print(f'안녕하세요. {name}님')
+# 주민등록번호 = '990101-1111111'
+# #문제 - 생년월일만 출력
+# #대쉬를 기준으로 왼,오 나눠보겠다.
+# print(주민등록번호.split('-'))
+# #['990101','1111111'] 이렇게 나옴.
 
-#let myArray = [1,2,3,4,5,];
-myList = [1,2,3,4,5,]
-print(myList[1], myList[-1])
-#myArray.length
-print(len(myList))
+# print(주민등록번호.split('-')[0]) #990101
+# print(주민등록번호.split('-')[1]) #1111111
+
+# msg = "안녕하세요 소정님"
+# print(msg.split()[1][:2]) # 소정
+
+a= 5
+b=1
+
+# b 에다가 a 값 넣고 a 에다 b 값 넣어서 스왑하고 싶다면
+
+'''
+let a = 5
+let b = 3
+let temp
+temp = a
+a = b
+b = temp
+'''
+
+a,b = b,a #다중할당 파이썬스러운 코드(Pythonic) 파이썬만 됨.
+
+myList = [1,2,3]
+
+a,b,c = myList
+print(a,b,c)
+
+# class 랑 lambda 알면 좋다.
+# 데이터분석시 자주 쓰이지 않는다.
+# 필요하면 추가적으로 공부하세요
+
+'''
+print
+변수
+자료형
+연산
+문자열
+문자열 인덱싱 슬라이싱 
+split()
+input()
+list
+tuple
+set
+dictionary
+if
+while
+for
+zip
+enumerate
+다중할당
+함수 function
+'''
